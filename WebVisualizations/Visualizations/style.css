@@ -8,9 +8,22 @@ body {
     ;
   }
   
-  /* header {
-  
-  } */
+  /* Giving our navbar some padding and a background color */
+.navbar .navbar-brand{
+  font-weight: bold;
+  font: Arial, sans-serif;
+  color: rgb(29, 28, 28);
+  background: #3cca94;
+  padding: 1% 1% 1% 1%;
+  margin: -1% 2% -1% 5%;
+}
+  header {
+  position: relative;
+  width: -20px;
+  font-weight: bold;
+  font: Arial, sans-serif;
+  color: #3cca94;
+  }
  
   
   .h1 {
@@ -22,20 +35,17 @@ body {
     text-align: left;
   }
   
-  .h2 {
-    font-size: 40px;
-  }
   
   a {
     color: #d21034;
   }
   
-  /* Selecting elements by class */
+  /* Selecting elements by class 
   .container {
     width: 1024px;
     margin: 0 auto;
     justify-content: space-around;
-  }
+  } */
 
   .container-fluid{
       padding-left: 4%;
@@ -43,16 +53,14 @@ body {
   }
   
   .row {
-    top: 10%;
-    position: fixed;
    background: white; 
   }
 
   p{
     font-size: 24px;
     color: rgba(51, 51, 51, 0.774);
-    font-family: "
-    line-height: 44px;
+    font: Arial, sans-serif;
+    line-height: 46px;
   }
 
   .col {
@@ -70,7 +78,10 @@ body {
 }
 .col-sm-12 {
     background-color: white;
-  
-  /* #contact-info {
-    width: 30%;
-  } */
+}
+
+.box-set {
+  position: relative;
+  height: 400px;
+  background: #e7e7e6;
+}
