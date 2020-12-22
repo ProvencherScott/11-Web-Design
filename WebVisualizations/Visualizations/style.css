@@ -13,39 +13,33 @@ body {
   font-weight: bold;
   font: Arial, sans-serif;
   color: rgb(29, 28, 28);
-  background: #3cca94;
+  background: rgba(21, 179, 153, 0.849);
   padding: 1% 1% 1% 1%;
   margin: -1% 2% -1% 5%;
 }
-  header {
-  position: relative;
-  width: -20px;
-  font-weight: bold;
-  font: Arial, sans-serif;
-  color: #3cca94;
+  
+  h1{
+    background: white;
+    padding-bottom: 2%;
+    margin-bottom: -2%; 
+    padding-right: 25px;
+    color: rgba(21, 179, 153, 0.849);
+    font-weight: bold;
   }
- 
-  
-  .h1 {
-    padding: 30px 0;
-    margin: 10px;
-    margin-bottom: 30px;
-    font-size: 30px;
-    color: rgb(42, 187, 156);
-    text-align: left;
-  }
-  
-  
-  a {
-    color: #d21034;
+    /* I am not sure why the h2 styling is not working */
+  h2{
+    background: white;
+    padding-bottom: 2%;
+    margin-bottom: -2%;
+    padding-right: 10px;
+    color: rgba(21, 179, 153, 0.849);
+    font-weight: bold;
   }
   
-  /* Selecting elements by class 
-  .container {
+  Selecting elements by class 
+  .container{
     width: 1024px;
-    margin: 0 auto;
-    justify-content: space-around;
-  } */
+  }
 
   .container-fluid{
       padding-left: 4%;
@@ -66,11 +60,11 @@ body {
   .col {
     background-color: white;
 }
-.col-lg-5 {
+.col-lg-6 {
     background-color: white;
 }
 
- .col-lg-7 {
+ .col-lg-8 {
      background-color: white;
  }
  .col-md-12 {
@@ -78,10 +72,4 @@ body {
 }
 .col-sm-12 {
     background-color: white;
-}
-
-.box-set {
-  position: relative;
-  height: 400px;
-  background: #e7e7e6;
 }
